@@ -1,1 +1,218 @@
-{"Offers":[{"Id":"Zuora_2c92a0fc636cad9f01636d88a6f81f54"},{"Id":"Zuora_8a12801c865454c301865a4357091153"},{"Id":"Zuora_2c92a0fc636cad9f01636de9e33c2620"}],"Addons":[{"Id":"8a1287c5870ce3d901870ec4e45a6695"},{"Id":"8a1287c5870ce3d901870ec4e45a6695"}]}
+{
+    "Offers": [
+        {
+            "Id": "Zuora_2c92a0fc636cad9f01636d88a6f81f54",
+            "SkuId": null,
+            "BillingDate": "2023-04-17T13:23:18Z",
+            "RenewalDate": "2023-05-17T13:23:18Z",
+            "BillingPeriod": "Month",
+            "ChargeTiers": [
+                {
+                    "Price": 24.99,
+                    "Currency": "USD",
+                    "Discount": null,
+                    "PriceFormatted": "$24.99"
+                },
+                {
+                    "Price": 10,
+                    "Currency": "GBP",
+                    "Discount": null,
+                    "PriceFormatted": "£10.00"
+                }
+            ],
+            "PaymentMethodIds": [
+                "ApplePay",
+                "CreditCard",
+                "PayPal"
+            ],
+            "AllowsNoPaymentMethod": true,
+            "FreeTrialMonths": 0,
+            "TotalFreeMonths": 0,
+            "Instalment": null
+        },
+        {
+            "Id": "Zuora_8a12801c865454c301865a4357091153",
+            "SkuId": null,
+            "BillingDate": "2023-04-17T13:23:18Z",
+            "RenewalDate": "2024-04-17T13:23:18Z",
+            "BillingPeriod": "Instalments",
+            "ChargeTiers": [
+                {
+                    "Price": 19.99,
+                    "Currency": "USD",
+                    "Discount": null,
+                    "PriceFormatted": "$19.99"
+                },
+                {
+                    "Price": 10,
+                    "Currency": "GBP",
+                    "Discount": null,
+                    "PriceFormatted": "£10.00"
+                }
+            ],
+            "PaymentMethodIds": [
+                "ApplePay",
+                "CreditCard",
+                "PayPal"
+            ],
+            "AllowsNoPaymentMethod": false,
+            "FreeTrialMonths": 0,
+            "TotalFreeMonths": 0,
+            "Instalment": {
+                "TermInMonths": 12,
+                "NextPaymentCaptureDate": "2023-05-17T13:23:18Z"
+            }
+        },
+        {
+            "Id": "Zuora_2c92a0fc636cad9f01636de9e33c2620",
+            "SkuId": null,
+            "BillingDate": "2023-04-17T13:23:18Z",
+            "RenewalDate": "2024-04-17T13:23:18Z",
+            "BillingPeriod": "Annual",
+            "ChargeTiers": [
+                {
+                    "Price": 224.99,
+                    "Currency": "USD",
+                    "Discount": null,
+                    "PriceFormatted": "$224.99"
+                },
+                {
+                    "Price": 224.99,
+                    "Currency": "GBP",
+                    "Discount": null,
+                    "PriceFormatted": "£224.99"
+                }
+            ],
+            "PaymentMethodIds": [
+                "ApplePay",
+                "CreditCard",
+                "PayPal"
+            ],
+            "AllowsNoPaymentMethod": true,
+            "FreeTrialMonths": 0,
+            "TotalFreeMonths": 0,
+            "Instalment": null
+        }
+    ],
+    "Addons": [
+        {
+            "Id": "8a1287c5870ce3d901870ec4e45a6695",
+            "SkuId": null,
+            "RegularSkuId": null,
+            "BillingType": "OneOff",
+            "BillingPeriod": null,
+            "ProductType": "ppv",
+            "Entitlements": {
+                "content": [
+                    "davis_vs_garcia_CA",
+                    "davis_vs_garcia_US",
+                    "davis_vs_garcia_NZ_AUS"
+                ]
+            },
+            "Type": "regular",
+            "EntitlementSetId": "davis_vs_garcia",
+            "BillingDate": "2023-04-18T13:23:18Z",
+            "ChargeTiers": [
+                {
+                    "Price": 60,
+                    "Currency": "USD",
+                    "Discount": null,
+                    "PriceFormatted": "$60.00"
+                },
+                {
+                    "Price": 65,
+                    "Currency": "GBP",
+                    "Discount": null,
+                    "PriceFormatted": "£65.00"
+                }
+            ],
+            "PaymentMethodIds": [
+                "ApplePay",
+                "CreditCard",
+                "PayPal"
+            ],
+            "AllowsNoPaymentMethod": true,
+            "Purchasable": true,
+            "EventStartDate": "2023-04-23T01:00:00Z",
+            "PurchaseDenyReason": null
+        },
+        {
+            "Id": "8a1287c5870ce3d901870ec4e45a6695",
+            "SkuId": null,
+            "RegularSkuId": null,
+            "BillingType": "OneOff",
+            "BillingPeriod": null,
+            "ProductType": "ppv",
+            "Entitlements": {
+                "content": [
+                    "davis_vs_garcia_CA",
+                    "davis_vs_garcia_US",
+                    "davis_vs_garcia_NZ_AUS"
+                ]
+            },
+            "Type": "regular",
+            "EntitlementSetId": "davis_vs_garcia",
+            "BillingDate": "2023-04-18T13:23:18Z",
+            "ChargeTiers": [
+                {
+                    "Price": 60,
+                    "Currency": "USD",
+                    "Discount": null,
+                    "PriceFormatted": "$60.00"
+                },
+                {
+                    "Price": 65,
+                    "Currency": "GBP",
+                    "Discount": null,
+                    "PriceFormatted": "£65.00"
+                }
+            ],
+            "PaymentMethodIds": [
+                "ApplePay",
+                "CreditCard",
+                "PayPal"
+            ],
+            "AllowsNoPaymentMethod": true,
+            "Purchasable": true,
+            "EventStartDate": "2023-04-23T01:00:00Z",
+            "PurchaseDenyReason": null
+        }
+    ],
+    "FreeTrialIneligibilityReason": "ForcedHardOffer",
+    "DiscountIneligibilityReason": "AccountStatusPreventsDiscount",
+    "GiftCode": null,
+    "PaymentMethods": [
+        {
+            "Id": "ApplePay",
+            "BillingCountries": [
+                "US"
+            ],
+            "SourceSystem": null,
+            "Default": false,
+            "RequireZipCode": true,
+            "GiftCodeDisallowed": false
+        },
+        {
+            "Id": "CreditCard",
+            "BillingCountries": [
+                "US"
+            ],
+            "SourceSystem": null,
+            "Default": true,
+            "RequireZipCode": true,
+            "GiftCodeDisallowed": false
+        },
+        {
+            "Id": "PayPal",
+            "BillingCountries": [
+                "US"
+            ],
+            "SourceSystem": null,
+            "Default": false,
+            "RequireZipCode": true,
+            "GiftCodeDisallowed": false
+        }
+    ],
+    "NoOfferFreeTrialMonths": 0,
+    "Entitlements": []
+}
