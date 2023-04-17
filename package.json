@@ -1,0 +1,23 @@
+{
+  "name": "mydb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitkacy/mydb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitkacy/mydb/issues"
+  },
+  "homepage": "https://github.com/Mitkacy/mydb#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
